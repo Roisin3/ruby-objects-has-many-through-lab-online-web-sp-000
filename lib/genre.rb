@@ -16,8 +16,8 @@ class Genre
     end
   end
 
-  def artists
-    Artist.map
-  end
+  #def artists
+  #  Artist.map
+  #end
 
 end
