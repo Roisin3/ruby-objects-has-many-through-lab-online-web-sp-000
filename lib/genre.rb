@@ -17,3 +17,4 @@ class Genre
   #def artists
   #  Artist.map
   #end
+end
