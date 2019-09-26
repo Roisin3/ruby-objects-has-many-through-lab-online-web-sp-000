@@ -1,5 +1,5 @@
 class Artist
-  attr_accessor :name, :song, :genres
+  attr_accessor :name, :song, :genre
   @@all = []
 
   def initialize(name)
@@ -24,7 +24,7 @@ class Artist
   end
 
   def genres
-    songs.map(&:genres)
+    songs.map(&:genre)
   end
 
 end
