@@ -9,13 +9,15 @@ class Genre
   def self.all
     @@all
   end
-=begin
-  def songs
-    Song.all.select ||
-  end
 
+  def songs
+    Song.all.select |songs|
+      song.genre == self
+    end
+  end
+  
   def artists
-    Artist.all
+    Artist.map 
   end
 =end
 
