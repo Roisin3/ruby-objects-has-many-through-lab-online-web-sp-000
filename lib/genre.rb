@@ -13,5 +13,5 @@ class Genre
     Artist.all
   end
 
-  
+
 end
