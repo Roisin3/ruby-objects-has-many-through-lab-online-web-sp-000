@@ -15,9 +15,9 @@ class Genre
       song.genre == self
     end
   end
-  
+
   def artists
-    Artist.map 
+    Artist.map
   end
 =end
 
