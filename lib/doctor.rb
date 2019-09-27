@@ -1,5 +1,5 @@
 class Doctor
-  attr_accessor :name, :patients, :appointment
+  attr_accessor :name, :patient, :appointment
   @@all = []
 
   def initialize(name)
@@ -11,8 +11,8 @@ class Doctor
     @@all
   end
 
-  def new_appointment(patients, date)
-    Appointment.new(patients, date)
+  def new_appointment(patient, date)
+    Appointment.new(patient, date)
   end
 
   def appointments
