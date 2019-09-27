@@ -20,6 +20,6 @@ class Doctor
 
   def patients
     Appointment.map(&:patient)
-  end    
+  end
 
 end
